@@ -20,16 +20,10 @@ export default function Footer() {
               {`© ${new Date().getFullYear()}`} {siteMetadata.author}
             </div>
             <div>{` • `}</div>
-            {/* <Link href="/">{siteMetadata.title}</Link> */}
-            <Link
-              href={siteMetadata.rss}
-              className="hover:text-primary-500 hover:underline hover:underline-offset-4"
-            >
-              RSS Feed
-            </Link>
+            <span className="waving-hand text-2xl">👋🏻</span>
             <div>{` • `}</div>
             <Link
-              href="https://github.com/reubence/reubence.com"
+              href="https://github.com/omondii/omondii.me"
               className="hover:text-primary-500 hover:underline hover:underline-offset-4"
             >
               Clone Theme
